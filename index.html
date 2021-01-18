@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HW</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400;1,500;1,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/b0fe13e909.css">
+	<link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
+	<link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
+	<link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<script src="https://kit.fontawesome.com/80aa6eaeb8.js" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" type="text/css" href="modal-video-master/css/modal-video.min.css">
+	
+
+</head>
+<body>
+	<header>
+		<div class="header">
+			<div class="wrapper">
+				<div class="logo">
+					<div class="logo__msg">
+						<a href="#"><img src="img/logo.png" alt="" class="logo__msg__img"></a>
+					</div>
+					<div class="time">
+						<a href="#"><img src="img/clock.png" alt="" class="i@memg"></a>
+						<div class="text">
+							<p>ПН - ПТ (9:00 - 18:00)</p>
+							<p class="text-coursive">СБ-ВС закрыто</p>
+						</div>
+					</div>
+					<div class="phone">
+						<a href="#"><img src="img/phone.png" alt="" class="img"></a>
+						<div class="phone__item">
+							<p>(555) 505-503</p>
+							<p>(551) 778-333</p>
+						</div>
+					</div>
+					<div class="phone">
+						<a href="#"><img src="img/phone.png" alt="" class="img"></a>
+						<div class="phone__item">
+							<p>(555) 505-503</p>
+							<p>(551) 778-333</p>
+						</div>
+					</div>
+					<div class="call-btn" id="myBtn">
+						<a href="#" id="button_timer">Заказать звонок</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="menu">
+			<div class="wrapper">
+				<div class="menu__list">
+					<a href="#"><div class="menu__item"> <div class="hover1"></div><div class="hover2"></div>Как получить кредит</div></a>
+					<a href="#"><div class="menu__item"> <div class="hover1"></div><div class="hover2"></div>Как погасить кредит</div></a>
+					<a href="https://usagaliev.github.io/credit/part4/faq.html">
+						<div class="menu__item">
+							<div class="hover1"></div>
+							<div class="hover2"></div>Вопросы и ответы
+						</div>
+					</a>
+					<a href="https://usagaliev.github.io/credit/part3/page3.html">
+						<div class="menu__item">
+							<div class="hover1"></div>
+							<div class="hover2"></div>Контакты
+						</div>
+					</a>
+					<a href="https://usagaliev.github.io/credit/part5/aboutus.html"><div class="menu__item"> <div class="hover1"></div><div class="hover2"></div>О нас</div></a>
+					<a href="#"><div class="menu__item"> <div class="hover1"></div><div class="hover2"></div>Отправить жалобу</div></a>
+					<a href="#"><div class="menu__item"> <div class="hover1"></div><div class="hover2"></div>Новости</div></a>
+					<div class="social__items">
+						<a href="#"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-instagram fa-2x"  aria-hidden="true"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section>
+		<div class="background__image">
+			<div class="wrapper pos-abs">
+				<div class="group-credits">
+					<a href="#"><div class="group-main">
+						<div class="icon">
+							<img src="img/icon-2.png" alt="" width="100" height="100">
+						</div>
+						<div class="vertical__line">|
+						</div>
+						<div class="group__text text__uppercase">
+							<p>Групповые кредиты</p>
+						</div>
+					</div></a>
+					<div class="group-casual">
+						<div class="group-cas__text">
+							<p><b>до 200 000 <u>С</u></b>
+								<br><p class="cas__text__mini">каждому участнику группы</p>
+								<p class="text__uppercase">без залога</p>
+							</div>
+							<a href="#"><div class="group-cas__btn">
+								подробнее
+							</div></a>
+						</div>
+					</div>
+					<div class="range">
+						<div class="range__title">
+							подобрать кредит
+						</div>
+						<div class="range__select">
+							<p>кредитный продукт</p>
+							<select name="">
+								<option value="1" selected="">Экспресс</option>
+								<option value="2">Обычный</option>
+								<option value="3">Премиум</option>
+							</select>
+						</div>
+						<div class="range__content">
+							<div class="range__content__text">
+								<p class="summa_credita">СУММА КРЕДИТА</p>
+								<b><p id="one"> </p></b>&nbsp <p class="summa_credita_item"> сомов</p>
+							</div>
+							<input type="range" id="credit"
+							min="10000" max="70000" value="1" step="1000" class="fun1">
+							<div class="summa__pogash">
+								<p>10000 сомов</p>
+								<p>70000 сомов</p>
+							</div>
+							<div class="range__content__text">
+								<p class="srok_pogash__text">СРОК ПОГАШЕНИЯ</p>
+								<b><p id="two"></p></b>&nbsp <p>  месяц(а/ев)</p>
+							</div>
+							<input type="range" id="pay"min="1" max="12" value="1" class="fun2">
+							<div class="summa__pogash">
+								<p>1 месяцев</p>
+								<p>12 месяцев</p>
+							</div>
+						</div>
+						<a href="https://usagaliev.github.io/credit/part2/page2.html">
+							<div class="range__btn add">
+							отправить заявку
+						</div></a>
+						<div class="srok_pogash__text__main">
+							<p class="srok_pogash__text2" oninput="sum()">СУММА ВОЗВРАТА</p>
+							<b><p id="three">0</p></b>&nbsp <p>сомов</p>
+						</div>
+					</div>
+				</div>
+			</div>
+	</section>
+	<section>
+		<div class="wrapper">
+			<h2 class="above__block">Доступные кредиты в городе Бишкек</h2>
+			<div class="block__block">
+				<div class="block block-bg">
+					<div class="block__item block__item__title">
+						<h2>Займ наличными</h2>
+					</div>
+					<div class="block__item">
+						<a href="#" class="block__btn">
+							<p>Оформить</p>
+						</a>
+						<a href='' class="block__btn__2">
+							<p>Подробнее ></p>
+						</a>
+					</div>
+					<div class="block__item block__ft">
+						<div class="block__ft__item">
+							<p class="block__text">До 100 000 с</p>
+							<p>Сумма займа</p>
+						</div>
+						<div class="block__ft__item">
+							<p class="block__text">До 180 дней</p>
+							<p>Срок займа</p>
+						</div>
+						<div class="block__ft__item">
+							<p class="block__text">18-75 лет</p>
+							<p>Возраст</p>
+						</div>
+						<div class=" block__ft__item__color">
+							<p class="block__text">от <b class="block__ft__text">0.85%</b></p>
+							<p>В день</p>
+						</div>
+					</div>
+				</div>
+				<div class="block block-bg_2">
+					<div class="block__item block__item__title">
+						<h2>Займ на Быстрокарту</h2>
+					</div>
+					<div class="block__item">
+						<a href="#" class="block__btn">
+							<p>Оформить</p>
+						</a>
+						<a href='' class="block__btn__2">
+							<p>Подробнее ></p>
+						</a>
+					</div>
+					<div class="block__item block__ft">
+						<div class="block__ft__item">
+							<p class="block__text">До 100 000 с</p>
+							<p>Сумма займа</p>
+						</div>
+						<div class="block__ft__item">
+							<p class="block__text">До 180 дней</p>
+							<p>Срок займа</p>
+						</div>
+						<div class="block__ft__item">
+							<p class="block__text">18-75 лет</p>
+							<p>Возраст</p>
+						</div>
+						<div class=" block__ft__item__color_2">
+							<p class="block__text">от <b class="block__ft__text">0.85%</b></p>
+							<p>В день</p>
+						</div>
+					</div>
+				</div>
+				<div class="block block-bg_3">
+					<div class="block__item block__item__title">
+						<h2>Займы под залог ПТС</h2>
+					</div>
+					<div class="block__item">
+						<a href="#" class="block__btn">
+							<p>Оформить</p>
+						</a>
+						<a href='' class="block__btn__2">
+							<p>Подробнее ></p>
+						</a>
+					</div>
+					<div class="block__item block__ft">
+						<div class="block__ft__item">
+							<p class="block__text">До 100 000 000 с</p>
+							<p>Сумма займа</p>
+						</div>
+						<div class="block__ft__item">
+							<p class="block__text">До 3 лет</p>
+							<p>Срок займа</p>
+						</div>
+						<div class="block__ft__item">
+							<p class="block__text">18-70 лет</p>
+							<p>Возраст</p>
+						</div>
+						<div class=" block__ft__item__color_3">
+							<p class="block__text">от <b class="block__ft__text">0.082%</b></p>
+							<p>В день</p>
+						</div>
+					</div>
+				</div>
+				<div class="block block-bg_4">
+					<div class="block__item block__item__title">
+						<h2>Займ на личную карту</h2>
+					</div>
+					<div class="block__item">
+						<a href="#" class="block__btn">
+							<p>Оформить</p>
+						</a>
+						<a href='#' class="block__btn__2">
+							<p>Подробнее ></p>
+						</a>
+					</div>
+					<div class="block__item block__ft">
+						<div class="block__ft__item">
+							<p class="block__text">До 15 000 с</p>
+							<p>Сумма займа</p>
+						</div>
+						<div class="block__ft__item">
+							<p class="block__text">До 30 дней</p>
+							<p>Срок займа</p>
+						</div>
+						<div class="block__ft__item">
+							<p class="block__text">18-75 лет</p>
+							<p>Возраст</p>
+						</div>
+						<div class=" block__ft__item__color_4">
+							<p class="block__text"><b class="block__ft__text">1%</b></p>
+							<p>В день</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+	<section>
+		<div class="wrapper">
+			<div class="block__credit__title">
+				<h2>Как оформить кредит</h2>
+			</div>
+			<div class="block__credit">
+				<div class="block__credit__item">
+					<img src="image/1.jpg" alt="">
+					<p class="credit__text__main">1. Подайте заявку</p>
+					<p>Это быстро и удобно</p>
+				</div>
+				<div class="block__credit__item">
+					<img src="image/2.jpg" alt="">
+					<p class="credit__text__main">2. Получите решение</p>
+					<p>Не дольше 15 минут</p>
+				</div>
+				<div class="block__credit__item block__credit__item__break">
+					<img src="image/3.jpg" alt="">
+					<p class="credit__text__main">3. Получите деньги</p>
+					<p>Моментально на банковскую карту и наличными в офисе</p>
+				</div>
+				<div class="block__credit__item">
+					<img src="image/4.jpg" alt="">
+					<p class="credit__text__main">4. Погасите займ</p>
+					<p>Моментально со своей же карты</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="review_bg">
+			<div class="review_main wrapper">
+				<div class="rv_title">
+					<div class="rv_title_text">
+						<h2>Отзывы клиентов</h2>
+						<div class="rv_attr">
+							<p>Оставить отзыв</p>
+							<div class="rv_arrows">
+								<div class="abv__arrows owl-nav">
+									<div class="owl-prev2 arr_left arr">
+										<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+											width="24px" height="19px">
+											<path fill-rule="evenodd" opacity="1" fill="rgb(76, 76, 76)"
+												d="M24.000,10.999 L5.428,10.999 L11.428,17.000 L9.572,19.000 L0.500,9.500 L9.572,0.000 L11.500,1.927 L5.428,8.000 L24.000,8.000 L24.000,10.999 Z">
+											</path>
+										</svg>
+									</div>
+									<div class="arr_right arr owl-next2">
+										<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+											width="24px" height="19px">
+											<path fill-rule="evenodd" opacity="1" fill="rgb(76, 76, 76)"
+												d="M24.000,10.999 L5.428,10.999 L11.428,17.000 L9.572,19.000 L0.500,9.500 L9.572,0.000 L11.500,1.927 L5.428,8.000 L24.000,8.000 L24.000,10.999 Z">
+											</path>
+										</svg>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="rv_blocks owl-carousel owl-theme owl-drag">
+					<div class="rv_block1 rv_block_item">
+						<p class="rv_name">Мария Юмакова</p>
+						<div class="rv_rating">
+
+						</div>
+						<div class="rv_content">
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, natus!</p>
+						</div>
+						<div class="rv_podrobn">
+							<p>Подробнее ></p>
+						</div>
+					</div>
+					<div class="rv_block2 rv_block_item">
+						<p class="rv_name">Мария Юмакова</p>
+						<div class="rv_rating">
+
+						</div>
+						<div class="rv_content">
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, natus!</p>
+							<p class="owl-video js-modal-btn" href="https://youtu.be/Tfsfo85m8H8" data-video-id="Tfsfo85m8H8"></p>
+						</div>
+						
+						<div class="rv_podrobn">
+							<p>Подробнее ></p>
+						</div>
+					</div>
+					<div class="rv_block3 rv_block_item">
+						<p class="rv_name">Мария Юмакова</p>
+						<div class="rv_rating">
+
+						</div>
+						<div class="rv_content">
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, natus!</p>
+						</div>
+						<div class="rv_podrobn">
+							<p>Подробнее ></p>
+						</div>
+					</div>
+					<div class="rv_block4 rv_block_item">
+						<p class="rv_name">Мария Юмакова</p>
+						<div class="rv_rating">
+
+						</div>
+						<div class="rv_content">
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, natus!</p>
+						</div>
+						<div class="rv_podrobn">
+							<p>Подробнее ></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="wrapper">
+		<div class="pay__title">
+			<h2>Способы оплаты</h2>
+		</div>
+		<div class="payblocks">
+			<div class="payblocks__item">
+				<p>Через приложение</p>
+				<a href="#">Скачать приложение ></a>
+				<div class="payblocks__item__img">
+					<!-- <i class="far fa-mobile-android fa-7x"></i> -->
+					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80px" height="110px">
+					<defs>
+						<linearGradient id="PSgrad_0" x1="0%" x2="0%" y1="0%" y2="100%">
+							<stop offset="0%" stop-color="rgb(252,106,44)" stop-opacity="1"></stop>
+							<stop offset="100%" stop-color="rgb(253,159,71)" stop-opacity="1"></stop>
+						</linearGradient>
+						<linearGradient id="PSgrad_1" x1="0%" x2="86.603%" y1="50%" y2="0%">
+							<stop offset="0%" stop-color="rgb(0,127,255)" stop-opacity="1"></stop>
+							<stop offset="100%" stop-color="rgb(28,166,255)" stop-opacity="1"></stop>
+						</linearGradient>
+					</defs>
+					<path fill-rule="evenodd" fill="url(#PSgrad_0)" d="M70.000,-0.001 L10.000,-0.001 C4.487,-0.001 -0.000,4.482 -0.000,9.999 L-0.000,99.999 C-0.000,105.512 4.487,109.999 10.000,109.999 L70.000,109.999 C75.512,109.999 80.000,105.512 80.000,99.999 L80.000,9.999 C80.000,4.482 75.512,-0.001 70.000,-0.001 ZM10.000,99.999 L10.000,79.999 L35.000,79.999 L35.000,69.999 L10.000,69.999 L10.000,9.999 L70.000,9.999 L70.000,69.999 L45.000,69.999 L45.000,79.999 L70.000,79.999 L70.000,99.999 L10.000,99.999 Z"></path>
+					</svg>
+				</div>
+			</div>
+			<div class="payblocks__item">
+				<p>В личном кабинете</p>
+				<a href="#">Перейти к оплате ></a>
+				<div class="payblocks__item__img">
+					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120px" height="90px">
+						<defs>
+							<linearGradient id="PSgrad_0" x1="0%" x2="0%" y1="0%" y2="100%">
+								<stop offset="0%" stop-color="rgb(252,106,44)" stop-opacity="1"></stop>
+								<stop offset="100%" stop-color="rgb(253,159,71)" stop-opacity="1"></stop>
+							</linearGradient>
+							<linearGradient id="PSgrad_1" x1="0%" x2="86.603%" y1="50%" y2="0%">
+								<stop offset="0%" stop-color="rgb(0,127,255)" stop-opacity="1"></stop>
+								<stop offset="100%" stop-color="rgb(28,166,255)" stop-opacity="1"></stop>
+							</linearGradient>
+
+						</defs>
+						<path fill-rule="evenodd" fill="url(#PSgrad_0)" d="M-0.000,69.988 L-0.000,-0.001 L120.000,-0.001 L120.000,69.988 L-0.000,69.988 ZM110.000,10.000 L10.000,10.000 L10.000,59.983 L110.000,59.983 L110.000,10.000 ZM40.000,30.000 L30.000,30.000 L30.000,20.000 L40.000,20.000 L40.000,30.000 ZM90.000,49.972 L30.000,49.972 L30.000,39.966 L90.000,39.966 L90.000,49.972 ZM50.000,20.000 L90.000,20.000 L90.000,30.000 L50.000,30.000 L50.000,20.000 ZM90.000,90.000 L30.000,90.000 L30.000,80.003 L90.000,80.003 L90.000,90.000 Z"></path>
+					</svg>
+				</div>
+			</div>
+			<div class="payblocks__item">
+				<p>Безналичным расчетом</p>
+				<a href="#">Посмотреть реквизиты ></a>
+				<div class="payblocks__item__img">
+					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100px" height="110px">
+						<defs>
+							<linearGradient id="PSgrad_0" x1="0%" x2="0%" y1="0%" y2="100%">
+								<stop offset="0%" stop-color="rgb(252,106,44)" stop-opacity="1"></stop>
+								<stop offset="100%" stop-color="rgb(253,159,71)" stop-opacity="1"></stop>
+							</linearGradient>
+							<linearGradient id="PSgrad_1" x1="0%" x2="86.603%" y1="50%" y2="0%">
+								<stop offset="0%" stop-color="rgb(0,127,255)" stop-opacity="1"></stop>
+								<stop offset="100%" stop-color="rgb(28,166,255)" stop-opacity="1"></stop>
+							</linearGradient>
+
+						</defs>
+						<path fill-rule="evenodd" fill="url(#PSgrad_0)" d="M79.599,20.399 C77.402,8.798 67.202,-0.001 55.000,-0.001 L-0.000,-0.001 L-0.000,109.999 L90.000,109.999 L90.000,99.999 L10.000,99.999 L10.000,9.999 L55.000,9.999 C63.301,9.999 70.000,16.698 70.000,24.999 L70.000,29.999 L75.000,29.999 C83.301,29.999 90.000,36.698 90.000,44.999 L90.000,109.999 L100.000,109.999 L100.000,44.999 C100.000,32.802 91.201,22.597 79.599,20.399 ZM20.000,29.999 L20.000,39.999 L45.000,39.999 L45.000,29.999 L20.000,29.999 ZM20.000,59.999 L60.000,59.999 L60.000,49.999 L20.000,49.999 L20.000,59.999 Z"></path>
+					</svg>
+				</div>
+			</div>
+			<div class="payblocks__item">
+				<p>В офисе</p>
+				<a href="#">Посмотреть адреса офисов ></a>
+				<div class="payblocks__item__img">
+					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="110px" height="105px">
+						<defs>
+							<linearGradient id="PSgrad_0" x1="0%" x2="0%" y1="0%" y2="100%">
+								<stop offset="0%" stop-color="rgb(252,106,44)" stop-opacity="1"></stop>
+								<stop offset="100%" stop-color="rgb(253,159,71)" stop-opacity="1"></stop>
+							</linearGradient>
+							<linearGradient id="PSgrad_1" x1="0%" x2="86.603%" y1="50%" y2="0%">
+								<stop offset="0%" stop-color="rgb(0,127,255)" stop-opacity="1"></stop>
+								<stop offset="100%" stop-color="rgb(28,166,255)" stop-opacity="1"></stop>
+							</linearGradient>
+
+						</defs>
+						<path fill-rule="evenodd" fill="url(#PSgrad_0)" d="M90.000,19.999 L90.000,29.999 L100.000,29.999 L100.000,104.845 L110.000,104.845 L110.000,19.999 L90.000,19.999 ZM-0.000,104.845 L10.000,104.845 L10.000,29.999 L20.000,29.999 L20.000,19.999 L-0.000,19.999 L-0.000,104.845 ZM60.000,40.999 L70.000,40.999 L70.000,19.999 L60.000,19.999 L60.000,40.999 ZM40.000,40.999 L50.000,40.999 L50.000,19.999 L40.000,19.999 L40.000,40.999 ZM60.000,70.999 L70.000,70.999 L70.000,49.999 L60.000,49.999 L60.000,70.999 ZM40.000,70.999 L50.000,70.999 L50.000,49.999 L40.000,49.999 L40.000,70.999 ZM60.000,104.999 L70.000,104.999 L70.000,79.999 L60.000,79.999 L60.000,104.999 ZM40.000,104.999 L50.000,104.999 L50.000,79.999 L40.000,79.999 L40.000,104.999 ZM20.000,-0.001 L20.000,104.845 L29.970,104.845 L29.970,9.970 L80.000,9.970 L80.000,104.845 L90.000,104.845 L90.000,-0.001 L20.000,-0.001 Z"></path>
+					</svg>
+				</div>
+			</div>
+			<div class="payblocks__item">
+				<p>На сайте онлайн</p>
+				<a href="#">Оплатить займ ></a>
+				<div class="payblocks__item__img">
+					<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="110px" height="110px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+						<g id="Payment-3">
+							<path fill="#FA6B38" d="M472,208H288v-8c0-4.418-3.582-8-8-8h-24v-16h80c26.499-0.026,47.974-21.501,48-48v-24c0-4.418-3.582-8-8-8
+							h-72V64c-0.026-26.499-21.502-47.974-48-48H88c-22.081,0.026-39.974,17.919-40,40v56.8c-18.611,3.828-31.976,20.199-32,39.2v304
+							c0.026,22.08,17.919,39.974,40,40h160c22.081-0.026,39.974-17.92,40-40v-40h24c4.418,0,8-3.582,8-8v-8h184
+							c13.255,0,24-10.745,24-24V232C496,218.745,485.255,208,472,208z M368,128c0,17.673-14.327,32-32,32s-32-14.327-32-32v-16h64V128z
+							M64,56c0-13.255,10.745-24,24-24h132.256c-7.899,8.786-12.265,20.186-12.256,32v112H64V56z M240,456c0,13.255-10.745,24-24,24H56
+							c-13.255,0-24-10.745-24-24V152c0.042-10.134,6.445-19.15,16-22.528V184c0,4.418,3.582,8,8,8h160c4.418,0,8-3.582,8-8v-54.528
+							c9.555,3.378,15.958,12.394,16,22.528V456z M224,112.8V64c0-17.673,14.327-32,32-32c17.674,0,32,14.327,32,32v64
+							c0.004,11.824,4.393,23.227,12.32,32H256v-8C255.976,132.999,242.611,116.627,224,112.8z M272,400h-16V208h16V400z M472,224
+							c4.418,0,8,3.582,8,8v24H288v-32H472z M472,384H288V272h192v104C480,380.418,476.418,384,472,384z"></path>
+							<path fill="#FA6B38" d="M88,288H56c-4.418,0-8,3.582-8,8v32c0,4.418,3.582,8,8,8h32c4.418,0,8-3.582,8-8v-32
+							C96,291.582,92.418,288,88,288z M80,320H64v-16h16V320z"></path>
+							<path fill="#FA6B38" d="M152,288h-32c-4.418,0-8,3.582-8,8v32c0,4.418,3.582,8,8,8h32c4.418,0,8-3.582,8-8v-32
+							C160,291.582,156.418,288,152,288z M144,320h-16v-16h16V320z"></path>
+							<path fill="#FA6B38" d="M216,288h-32c-4.418,0-8,3.582-8,8v32c0,4.418,3.582,8,8,8h32c4.418,0,8-3.582,8-8v-32
+							C224,291.582,220.418,288,216,288z M208,320h-16v-16h16V320z"></path>
+							<path fill="#FA6B38" d="M88,352H56c-4.418,0-8,3.582-8,8v32c0,4.418,3.582,8,8,8h32c4.418,0,8-3.582,8-8v-32
+							C96,355.582,92.418,352,88,352z M80,384H64v-16h16V384z"></path>
+							<path fill="#FA6B38" d="M152,352h-32c-4.418,0-8,3.582-8,8v32c0,4.418,3.582,8,8,8h32c4.418,0,8-3.582,8-8v-32
+							C160,355.582,156.418,352,152,352z M144,384h-16v-16h16V384z"></path>
+							<path fill="#FA6B38" d="M216,352h-32c-4.418,0-8,3.582-8,8v32c0,4.418,3.582,8,8,8h32c4.418,0,8-3.582,8-8v-32
+							C224,355.582,220.418,352,216,352z M208,384h-16v-16h16V384z"></path>
+							<path fill="#FA6B38" d="M88,416H56c-4.418,0-8,3.582-8,8v32c0,4.418,3.582,8,8,8h32c4.418,0,8-3.582,8-8v-32
+							C96,419.582,92.418,416,88,416z M80,448H64v-16h16V448z"></path>
+							<path fill="#FA6B38" d="M152,416h-32c-4.418,0-8,3.582-8,8v32c0,4.418,3.582,8,8,8h32c4.418,0,8-3.582,8-8v-32
+							C160,419.582,156.418,416,152,416z M144,448h-16v-16h16V448z"></path>
+							<path fill="#FA6B38" d="M216,416h-32c-4.418,0-8,3.582-8,8v32c0,4.418,3.582,8,8,8h32c4.418,0,8-3.582,8-8v-32
+							C224,419.582,220.418,416,216,416z M208,448h-16v-16h16V448z"></path>
+							<path fill="#FA6B38" d="M216,224H56c-4.418,0-8,3.582-8,8v32c0,4.418,3.582,8,8,8h160c4.418,0,8-3.582,8-8v-32
+							C224,227.582,220.418,224,216,224z M208,256H64v-16h144V256z"></path>
+							<path fill="#FA6B38" d="M440,320c-5.923,0.021-11.627,2.245-16,6.24c-9.809-8.916-24.987-8.191-33.902,1.617
+							c-8.916,9.809-8.191,24.987,1.617,33.902c9.153,8.32,23.132,8.32,32.285,0c9.809,8.915,24.987,8.191,33.902-1.618
+							c8.915-9.809,8.19-24.987-1.618-33.902C451.83,322.191,446.019,319.965,440,320L440,320z M408,352c-4.418,0-8-3.582-8-8
+							s3.582-8,8-8s8,3.582,8,8S412.418,352,408,352z M440,352c-4.418,0-8-3.582-8-8s3.582-8,8-8s8,3.582,8,8S444.418,352,440,352z"></path>
+							<path fill="#FA6B38" d="M80,64h16v16H80V64z"></path>
+							<path fill="#FA6B38" d="M112,64h80v16h-80V64z"></path>
+							<path fill="#FA6B38" d="M80,96h112v16H80V96z"></path>
+							<path fill="#FA6B38" d="M80,128h112v16H80V128z"></path>
+						</g>
+					</svg>
+				</div>
+			</div>
+			<div class="payblocks__item">
+				<p>Платежные терминалы</p>
+				<a href="#">Адреса терминалов ></a>
+				<div class="payblocks__item__img">
+					<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="110px" height="110px" viewBox="0 0 110 110" enable-background="new 0 0 110 110" xml:space="preserve">
+						<g>
+							<g>
+								<path fill="#FC6A2C" d="M81.625,72.752H28.792c-3.584,0-6.5-2.916-6.5-6.5V39.526c0-3.584,2.916-6.5,6.5-6.5h52.833
+								c3.584,0,6.5,2.916,6.5,6.5v26.727C88.125,69.836,85.209,72.752,81.625,72.752z M31.292,63.752h47.833V42.026H31.292V63.752z"></path>
+							</g>
+						</g>
+						<g>
+							<g>
+								<rect x="54.167" y="84.639" fill="#FC6A2C" width="30.167" height="9"></rect>
+							</g>
+						</g>
+						<path fill="#FC6A2C" d="M16.792,110V27.139h76.833V110h9V24.639c0-3.584-2.916-6.5-6.5-6.5H14.292c-3.584,0-6.5,2.916-6.5,6.5V110
+						H16.792z"></path>
+					</svg>
+				</div>
+			</div>
+		</div>
+		</div>
+	</section>
+
+	<section>
+
+		<div class="modal" id="close">
+		<div class="modal-content">
+			<div class="modal__icon">
+				<i class="fa fa-rocket fa-2x"></i>
+			<div class="header">
+				<span class="close">&times;</span>
+			</div>
+			</div>
+			<div class="modal-body">
+				<p> —Хотите, перезвоним вам за 28 секунд?</p>
+			</div>
+			<div class="modal__input">
+			<input type="tel" id="modalInput">
+			</div>
+			<a href="#" class="call-btn-click"> <div class="modal__button">
+				Жду звонка
+			</div></a>
+			<div class="done_icon">
+				<i class="fas fa-check fa-4x"></i>
+			</div>
+			<div class="modal__timer">
+				<div>00:	</div><div id="timer">6:</div><div id="ms">59</div>
+			</div>
+			<div class="modal__footer">
+				<p>Свободных операторов на линии:10 <br>
+					В процессе разговора с клиентами: 15 <br>
+				Обслуженных вызовов за сегодня: 350</p>
+			</div>
+			
+		</div>
+		</div>
+	</section>
+
+
+
+	<section class="section__advert">
+		<div class="wrapper">
+			<div class="advert__main">
+				<div class="advert__title">
+					<div class="advert__title__main">
+						<p>Акции</p>
+					</div>
+					<div class="advert__title__all">
+						<div class="adv__title__main"><a href="#">
+							Все акции
+							<svg class="advert__svg__burger" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" height="100%" version="1.1"
+								style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+								viewBox="0 0 423 353" xmlns:xlink="http://www.w3.org/1999/xlink">
+								<g id="Слой_x0020_1">
+									<metadata id="CorelCorpID_0Corel-Layer"></metadata>
+									<path fill="#314D62"
+										d="M0 71l423 0 0 -71 -423 0 0 71zm0 282l423 0 0 -71 -423 0 0 71zm0 -141l423 0 0 -71 -423 0 0 71z">
+									</path>
+								</g>
+							</svg>
+						</a></div>
+						
+						<div class="abv__arrows owl-nav">
+							<div class="owl-prev arr_left arr">
+								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="19px">
+									<path fill-rule="evenodd" opacity="1" fill="rgb(76, 76, 76)"
+										d="M24.000,10.999 L5.428,10.999 L11.428,17.000 L9.572,19.000 L0.500,9.500 L9.572,0.000 L11.500,1.927 L5.428,8.000 L24.000,8.000 L24.000,10.999 Z">
+									</path>
+								</svg>
+							</div>
+							<div class="arr_right arr owl-next">
+								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="19px">
+									<path fill-rule="evenodd" opacity="1" fill="rgb(76, 76, 76)"
+										d="M24.000,10.999 L5.428,10.999 L11.428,17.000 L9.572,19.000 L0.500,9.500 L9.572,0.000 L11.500,1.927 L5.428,8.000 L24.000,8.000 L24.000,10.999 Z">
+									</path>
+								</svg>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				
+				<div class="advert__blocks owl-carousel owl-theme">
+					<div class="adv__blocks__item adv_blocks_bg_1">
+						<div class="adv__blocks__adv">
+							<p>Акция</p>
+						</div>
+						<div class="adv__blocks__title adv__blocks__title_1">
+							<p> Выиграй кэшбэк <br> 100%!</p>
+						</div>
+						<a href="#" class="adv__block__btn">
+							<p>Подробнее</p>
+						</a>
+					</div>
+					<div class="adv__blocks__item adv_blocks_bg_2">
+						<div class="adv__blocks__adv">
+							<p>Акция</p>
+						</div>
+						<div class="adv__blocks__title">
+							<p> Жаркая <br> дюжина!</p>
+							<p class="adv__bl__title__mini">Быстроденьги — 12 лет!</p>
+						</div>
+						<a href="#" class="adv__block__btn">
+							<p>Подробнее</p>
+						</a>
+					</div>
+					<div class="adv__blocks__item adv_blocks_bg_1">
+						<div class="adv__blocks__adv">
+							<p>Акция</p>
+						</div>
+						<div class="adv__blocks__title adv__blocks__title_1">
+							<p> Выиграй кэшбэк <br> 100%!</p>
+						</div>
+						<a href="#" class="adv__block__btn">
+							<p>Подробнее</p>
+						</a>
+					</div>
+					<div class="adv__blocks__item adv_blocks_bg_2">
+						<div class="adv__blocks__adv">
+							<p>Акция</p>
+						</div>
+						<div class="adv__blocks__title">
+							<p> Жаркая <br> дюжина!</p>
+							<p class="adv__bl__title__mini">Быстроденьги — 12 лет!</p>
+						</div>
+						<a href="#" class="adv__block__btn">
+							<p>Подробнее</p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="wrapper">
+			<div class="loan_text_main">
+				<div class="loan__text__pos">
+					<div class="loan_text_main_text">
+					<h1>Заем денег в долг в Быстроденьги</h1>
+					<p>Быстрый займ — способ решить финансовые проблемы, предъявив только паспорт. Это отличный выход из сложной
+					ситуации, если вам срочно требуются деньги для совершения крупной покупки, проведения праздника, отдыха с семьей
+					или не хватает средств на повседневные расходы до зарплаты. Но далеко не всегда у друзей или родственников есть
+					необходимая сумма, а получение кредита требует сил и времени. Компания «Быстроденьги» занимает лидирующие
+					позиции на микрофинансовом рынке России. С 2008 года мы помогаем в решении финансовых проблем, предлагая занять
+						деньги срочно как в филиалах, так и с помощью онлайн-сервисов.</p>
+					</div>
+					<div class="text-show">
+					<h3>Как получить микрозайм?</h3>
+					<p>
+						Для оформления кредита в банке требуется собрать разнообразные документы и справки, потратить много времени,
+						ждать результаты проверки кредитной истории и решение организации об одобрении кредита или отказе в нем.
+						Получить деньги под проценты в долг у нас значительно проще — оформление займа займет всего лишь несколько
+						минут. При этом единственное условие выдачи денежных средств — наличие паспорта гражданина РФ.&nbsp;
+					</p>
+					<p>
+						Получить срочные займы в течение 15 минут можно тремя способами:<br>
+					</p>
+					<ol>
+						<li>Оформить Быстрокарту — чтобы её получить, нужно заполнить заявку на официальном сайте, дождаться звонка и
+							забрать карту в ближайшем офисе. После чего можно переводить на неё деньги при необходимости, совершив один
+							звонок менеджеру.</li>
+						<li>Получить наличные, предварительно оставив заявку на сайте и забрав деньги в ближайшем филиале, либо оформив
+							займ в офисе по предоставленному паспорту.</li>
+						<li>Получить деньги, не выходя из дома, оформив срочный займ онлайн. Для его получения требуется заполнить
+							заявку на сайте, дождаться одобрения, согласиться на выполнение условий оферты. После этого перечисляется
+							займ на карту, выданную любым банком.</li>
+					</ol>
+					<p>
+					</p>
+					<h3>Условия получения денег в кредит онлайн или наличными:</h3>
+					<ul>
+						<li>Гражданство РФ.&nbsp;</li>
+						<li>Возраст от 18 до 75 лет.&nbsp;</li>
+						<li>Постоянная работа с официальным оформлением.&nbsp;</li>
+						<li>Наличие при себе паспорта.&nbsp;</li>
+					</ul>
+					Рассмотрение заявки занимает около 15 минут.
+					<p>
+					</p>
+					<p>
+						На минимальных условиях компания «Быстроденьги» предоставляет:<br>
+					</p>
+					<ul>
+						<li>Займ на карту или наличными на сумму от 1 000 до 30 000 рублей на срок от 7 до 30 дней.</li>
+						<li>Денежные средства в размере от 10 000 до 100 000 рублей на период от 42 до 180 дней наличными в офисе или
+							на Быстрокарту.</li>
+						<li>Займ под автозалог на сумму от 50 000 до 1 000 000 рублей с оформлением по паспорту, ПТС и СТС в одном из
+							филиалов.&nbsp;</li>
+					</ul>
+					<p>
+						Процентная ставка по займу определяется индивидуально. Рассчитать сумму средств, которые нужно вернуть к концу
+						срока, можно, воспользовавшись онлайн-калькулятором на официальном сайте. Выберите начальную сумму займа, его
+						срок, и сервис автоматически рассчитает конечную сумму, которую необходимо выплатить.&nbsp;
+					</p>
+					<h3>Как погасить микрозайм?</h3>
+					<p>
+						Удобство использования займов и экономия времени клиентов — наши приоритеты. Мы предлагаем несколько способов
+						их погашения: в одном из офисов или с помощью личного кабинета, перечисляя деньги с банковской карты без
+						процентов.&nbsp;
+					</p>
+					<p>
+						Компания «Быстроденьги» — это более&nbsp;<a href="#">300 офисов в стране</a>, круглосуточный
+						онлайн-сервис службы поддержки — все, что необходимо тем, кто оказался в трудной финансовой ситуации.&nbsp;<br>
+						Закажите звонок, воспользовавшись формой обратной связи, или задайте интересующие вас вопросы консультанту в
+						офисе! Мы с радостью предоставим подробную информацию о видах займов и поможем найти решение финансовых
+						проблем!<br>
+					</p>
+					</div>
+					<div class="btn_active">
+						<p>Узнать больше...</p>
+						<svg id="btn_rotate" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15px"
+							height="11px">
+						<path fill-rule="evenodd" stroke="rgb(66, 72, 77)" stroke-width="2px" stroke-linecap="butt"
+							stroke-linejoin="miter" fill="none" d="M13.000,3.438 L7.000,8.999 L1.000,3.438 "></path>
+						</svg>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<footer class="footer_color1">
+		<div class="wrapper">
+			<div class="footer__main">
+				<div class="footer_items footer_items__1">
+					<div class="footer__cols ft__col_1">
+						<a href="#">Инвестиции</a>
+						<a href="#">Услуги</a>
+						<a href="#">Карьера</a>
+						<a href="#">Документы</a>
+						<a href="#">Справочник</a>
+					</div>
+					<div class="footer__cols ft__col_1">
+						<a href="#">Пресс-центр</a>
+						<a href="#">Статьи</a>
+						<a href="#">О компании</a>
+						<a href="#">Стоп вирус</a>
+					</div>
+					<div class="footer__cols ft__col_2">
+						<a href="#">Займ наличными</a>
+						<a href="#">Онлайн-займ</a>
+						<a href="#">Погасить займ</a>
+						<a href="#">Бизнес-займ</a>
+					</div>
+					<div class="footer__cols ft__col_2">
+						<a href="#">Займ под залог</a>
+						<a href="#">Акции</a>
+						<a href="#">Инвестиции</a>
+					</div>
+				</div>
+				<div class="footer__cols ft_col_logo">
+						<img src="img/ft.svg" alt="">
+						<a href="#" class="ft__number">8 800 700-43-44</a>
+						<a href="#" class="ft__message">Оставить сообщение</a>
+				</div>
+			</div>
+			<div class="footer__center">
+				<div class="ft__text">
+					<p>МФК Быстроденьги (ООО) раскрывает информацию на странице в сети Интернет информационного агентства,
+						аккредитованного ЦБ РФ на раскрытие информации.</p>
+					<p>По вопросу реструктуризации задолженности во исполнение Информационного письма Банка России от 20.03.2020 №ИП-06-59/22</p>
+				</div>
+				<div class="ft__app">
+					<div class="ft__app_text">
+						<p>Приложение Быстроденьги на вашем мобильном!</p>
+					</div>
+					<div class="ft__app_logos">
+						<a href=""><img src="img/app-store.svg" alt=""></a>
+						<a href=""><img src="img/google-play.svg" alt=""></a>
+					</div>
+				</div>
+			</div>
+			<div class="footer_center_2">
+				<hr>
+				<div class="ft_policy">
+					<a href="#">Политика конфиденциальности</a>
+					<div class="ft_media">
+						<a href=""><i class="fab fa-whatsapp-square fa-3x"></i></a>
+						<a href=""><i class="fab fa-vk fa-3x"></i></a>
+						<a href=""><i class="fab fa-facebook-square fa-3x"></i></a>
+						<a href=""><i class="fab fa-odnoklassniki-square fa-3x"></i></a>
+						<a href=""><i class="fab fa-youtube-square fa-3x"></i></a>
+						<a href=""><i class="fab fa-instagram-square fa-3x"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<footer class="footer_color2">
+		<div class="footer__btm wrapper">
+			<div class="ft_copyright">
+				<p>© 2008 - 2020 Микрофинансовая компания "Быстроденьги" (Общество с ограниченной ответственностью) (МФК
+				Быстроденьги
+				(ООО)). Россия, 123290, город Москва, тупик Магистральный 1-й, дом 11, стр. 10. Режим работы: 9:00 - 18:00, 13:00 - 14:00 (обед).</p>
+				<p> ПСК составляет от 30,000% до 365,000%.</p>
+			</div>
+			<div class="ft_map">
+				<a href="#">Карта сайта</a>
+			</div>
+		</div>
+	</footer>
+
+		<script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+		<script src="modal-video-master/js/modal-video.js"></script>
+		<script src="js/jquery-3.5.1.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/js.js"></script>
+	</body>
+	</html>
+
+
